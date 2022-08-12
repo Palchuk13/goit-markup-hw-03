@@ -1,3 +1,11 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
 :root{
 --primary-font-family: 'Roboto','Raleway','Arial', sans-serif;
 --primary-text-color: #757575;
@@ -24,6 +32,12 @@
 .section-title {
     color: var(--title-text-color);
     font-weight: 700;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 /* Header */
 .logo {
