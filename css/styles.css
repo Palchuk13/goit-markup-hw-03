@@ -131,16 +131,17 @@ html{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Feature */
-.feature>.container{
-    margin-top: 94px;
+.feature{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .feature .section-title{
     line-height: 1.14;
     text-transform: uppercase;
 }
 /* Work */ 
-.work>.container{
-    margin-top: 94px;
+.work{
+    padding-bottom: 94px;
     text-align: center;
 } 
 .work >.section-title, .team>.section-title{
@@ -149,10 +150,13 @@ html{
 }
 /* Team */
 .team{
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--secondary-background-color);
-}
-.team>.container{
     text-align: center;
+}
+.team>.container>.section-title{
+    margin-bottom: 50px;
 }
 .team >.list >.section-title{
     font-weight: 500;
