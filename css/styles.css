@@ -43,6 +43,10 @@ html{
     outline: 2px solid#2196F3;
 }
 /* Header */
+header>.container{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .logo {
     color: var(--title-text-color);
     font-family: 'Raleway';
@@ -144,7 +148,8 @@ html{
     padding-bottom: 94px;
     text-align: center;
 } 
-.work >.section-title, .team>.section-title{
+.work>.container>.section-title, .team>.container>.section-title{
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.16;
 }
@@ -154,10 +159,7 @@ html{
     padding-bottom: 94px;
     background-color: var(--secondary-background-color);
     text-align: center;
-}
-.team>.container>.section-title{
-    margin-bottom: 50px;
-}
+}   
 .team >.list >.section-title{
     font-weight: 500;
     font-size: 16px;
@@ -170,29 +172,35 @@ html{
 /* Footer*/
 .footer{
     background-color: var(--footer-background-color);
+    font-style: normal;
 }
-.footer > .logo{
+.footer>.container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+.footer>.container>.logo{
     color: var(--primary-white-color)
 }
-.address .link {
+.link-address.link {
     color: var(--primary-white-color);
     line-height: 1.71;
     font-style: normal;
 }
 .link.footer-contact{
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 /* Filter section */
-.container.portfolio{
-    margin-bottom: 94px;
-}
-.filter> .container{
-    margin-bottom: 94px;
+.filter{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .container>.filter-list{
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
-.filter >.section-title{
+.filter-title{
+    margin-top: 20px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
