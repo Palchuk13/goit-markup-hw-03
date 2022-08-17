@@ -16,6 +16,11 @@ html{
 }
 
 /* In all pages */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .link {
     text-decoration: none;
 }
