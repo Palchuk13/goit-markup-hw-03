@@ -14,7 +14,7 @@ html {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
-  --footer-background-color: #2f303a;
+  --accent-background-color: #2f303a;
   --margin-gap: 30px;
   --padding-gap: 94px;
 }
@@ -155,7 +155,7 @@ img {
 /* Hero */
 .hero {
   text-align: center;
-  background-color: var(--footer-background-color);
+  background-color: var(--accent-background-color);
 }
 
 .hero > .container {
@@ -323,7 +323,7 @@ img {
 
 /* Footer*/
 .footer {
-  background-color: var(--footer-background-color);
+  background-color: var(--accent-background-color);
   font-style: normal;
 }
 
